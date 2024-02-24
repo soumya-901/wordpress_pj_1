@@ -5,7 +5,7 @@
 }
 
 #menu-top-bar li{
-    margin-left: 40rem;
+    margin-left: 1rem;
 }
 
 #menu-top-bar li a{
@@ -14,7 +14,7 @@
 }
 #menu-top-bar li a:hover{
     text-decoration: none;
-    color: rgb(27, 148, 255);
+    color: rgb(1, 21, 39);
 }
 
 .top_gape{
@@ -26,4 +26,8 @@
 
 #nav_bar_id_post.body{
     background-color: rebeccapurple;
+}
+
+.col-lg-3{
+    margin-left: 2rem;
 }

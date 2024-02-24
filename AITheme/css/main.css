@@ -1,0 +1,79 @@
+#menu-top-bar{
+    display:flex;
+    /* justify-content: space-evenly; */
+    width: 100%;
+}
+
+#menu-top-bar li{
+    margin-left: 1rem;
+}
+
+#menu-top-bar li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#menu-top-bar li a:hover{
+    text-decoration: none;
+    color: rgb(30, 150, 255);
+}
+
+.top_gape{
+    margin-top: .5rem;
+}
+.test_background{
+    background-color: aqua !important;
+}
+
+#nav_bar_id_post.body{
+    background-color: rebeccapurple;
+}
+
+.col-lg-3{
+    margin-left: 2rem;
+}
+
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.megamenu {
+    position: static;
+  }
+  
+  .megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+  }
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSES
+  * ==========================================
+  *
+  */
+  
+  body {
+    background: #eaafc8;
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+    background: linear-gradient(to right, #eaafc8, #654ea3);
+    min-height: 100vh;
+  }
+  
+  code {
+    color: #745eb1;
+    background: #fff;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.2rem;
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.08em;
+  }
+  
