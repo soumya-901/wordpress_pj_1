@@ -22,7 +22,18 @@ function load_js(){
     // wp_enqueue_script('popper-js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js', array(), '2.5.4', true);
 }
 
-add_action( 'wp_enqueue_scripts','load_js');
+// add_action( 'wp_enqueue_scripts','load_js');
+
+function ti_custom_javascript() {
+
+    wp_register_script('custom-script', get_template_directory_uri() . '/js/custom-script.js', array('jquery'), '1.0', true);
+    
+    // Enqueue the script
+    wp_enqueue_script('custom-script');
+}
+add_action('wp_enqueue_scripts', 'ti_custom_javascript');
+
+
 
 function cg_your_theme_scripts() {
 	wp_enqueue_style( 'output', get_template_directory_uri() . '/dist/output.css', array() );
