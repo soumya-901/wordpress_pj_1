@@ -1,67 +1,41 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
-  <a href="#" class="navbar-brand font-weight-bold d-block d-lg-none">MegaMenu</a>
-  <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
-          <span class="navbar-toggler-icon"></span>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand ml-9" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-  <div id="navbarContent" class="collapse navbar-collapse">
-    <ul class="navbar-nav mx-auto">
-      <!-- Megamenu-->
-      <li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">Mega Menu</a>
-        <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
-          <div class="container">
-            <div class="row bg-white rounded-0 m-0 shadow-sm">
-              <div class="col-lg-7 col-xl-8">
-                <div class="p-4">
-                  <div class="row">
-                    <div class="col-lg-6 mb-4">
-                      <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
-                      <ul class="list-unstyled">
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0">Unique Features</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-6 mb-4">
-                      <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
-                      <ul class="list-unstyled">
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-6 mb-4">
-                      <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
-                      <ul class="list-unstyled">
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-6 mb-4">
-                      <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
-                      <ul class="list-unstyled">
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block" style="background: center center url(https://bootstrapious.com/i/snippets/sn-megamenu/mega.png)no-repeat; background-size: cover;"></div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">About</a></li>
-      <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Services</a></li>
-      <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Contact</a></li>
-    </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item animated fadeInDown">
+            <a class="nav-link active" aria-current="page" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Our Client</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Carrier
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-primary">Schedule a Call</button>
+        </li>
+      </ul>
+    </div>
   </div>
-</nav>
-
-<!-- End -->
+  </nav>
+</header>

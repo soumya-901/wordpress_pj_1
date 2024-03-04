@@ -11,6 +11,9 @@
 
   </head>
   <body>
-  <?php get_template_part('template/template','home-header');?>
+    <!-- <div style = "margin-top:3rem;"> -->
+      <?php get_template_part('includes/section','header');?>
+
+    <!-- </div> -->
   
  

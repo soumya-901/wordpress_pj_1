@@ -1,3 +1,10 @@
+
+body{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 #menu-top-bar{
     display:flex;
     /* justify-content: space-evenly; */
