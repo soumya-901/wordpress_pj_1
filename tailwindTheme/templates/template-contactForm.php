@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         'phone' => $phone,
         'gender' => $gender,
     );
-
+    $submitted = true;
     // Display submitted data in the browser console
     echo "<script>console.log(" . json_encode($data) . ");</script>";
 }
