@@ -2,6 +2,7 @@
 <?php get_header(); ?>
 
 <?php
+$submitted = false;
 // Handle form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $name = isset($_POST['name']) ? sanitize_text_field($_POST['name']) : '';
