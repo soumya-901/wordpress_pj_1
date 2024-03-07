@@ -11,24 +11,5 @@
                 class="bg-orange-600 text-white py-3 px-7 rounded-lg text-[1.2rem] mb-3 lg:mb-10 xl:py-5 xl:px-9 xl:text-[1.5rem] xl:my-[1rem]">Schedule
                 a Call</button>
 
-            <!-- home....=================================================== -->
-            <div
-                class="min-h-72 bg-white p-5 mt-8 rounded-lg shadow-lg m-auto sm:w-[30rem] md:w-[50rem] px-10 xl:w-[70rem] xl:flex">
-                <div class="xl:h-[100%] xl:m-auto">
-                <p class="text-gray-700 text-[1.3rem] sm:p-4 md:text-[1.6rem] xl:text-[2.2rem] xl:font-bold xl:text-gray-600 xl:w-[90%]">500+ companies rely on our <span
-                        class="underline decoration-orange-600 ">top 1% talent</span> to scale their dev teams.</p>
-                <hr class="xl:hidden">
-            </div>
-                <div class="flex flex-wrap">
-                    <span class="text-gray-900 text-[1.5rem] m-1 md:m-6">Google</span>
-                    <span class="text-gray-900 text-[1.5rem] m-1 md:m-6">NextRoll</span>
-                    <span class="text-gray-900 text-[1.5rem] m-1 md:m-6">Pinterest</span>
-                    <span class="text-gray-900 text-[1.5rem] m-1 md:m-6">Sclesforce</span>
-                    <span class="text-gray-900 text-[1.5rem] m-1 md:m-6">Adobe</span>
-                    <span class="text-gray-900 text-[1.5rem] m-1 md:m-6">gag</span>
-                    <span class="text-gray-900 text-[1.5rem] m-1 md:m-6">motorola</span>
-                    <span class="text-gray-900 text-[1.5rem] m-1 md:m-6">hp</span>
-                </div>
-            </div>
         </div>
     </div>
