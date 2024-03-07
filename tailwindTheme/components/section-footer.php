@@ -6,7 +6,7 @@
             <div class="sm:flex gap-7 md:gap-14 ">
                 <div class="mt-[4rem] lg:mt-2 ">
 
-                    <svg width="70" height="70" viewBox="0 0 49 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="60" height="60" viewBox="0 0 49 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M27.5484 0.317535C39.3957 0.317535 49 10.0963 49 22.1588C49 34.2213 39.3957 44 27.5484 44V0.317535Z"
                             fill="#F66135" />

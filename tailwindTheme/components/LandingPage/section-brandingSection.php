@@ -1,94 +1,117 @@
-<div class="xl:mt-[15rem] pl-[2rem] lg:mt-[15rem] ">
-        <div class="xl:flex xl:justify-between">
-        <h2 class="text-[2rem] my-[3rem] mx-2 font-bold md:text-[2.5rem] md:w-[50%] lg:mt-6">From Concept to Completion: Our Full-Stack Expertise.</h2>
-        <button class="m-4 text-[1.5rem] underline underline-offset-8 hover:ml-8 xl:mr-[6rem]">Everything we do &rarr;</button>
-    </div>
-        <div class="flex flex-wrap">
+<div class=" px-[2rem] xl:px-[8rem] py-[4rem] gap-4">
+        <div class="xl:flex xl:justify-center ">
+            <div class="xl:w-[80%]">
+            <h2 class="text-[1.8rem] my-[3rem] mx-2 font-bold md:text-[2.5rem] md:w-[50%] lg:mt-6 lg:w-[70%] ">From Concept to
+                Completion: Our Full-Stack Expertise.</h2>
+            </div>
+                <div class="">
+            <button class="m-4 text-[1rem] hover:ml-[3rem] xl:mt-[4rem]">Everything we do
+                &rarr;</button>
+                <hr class="w-[12rem] ml-[1rem] border-[.05rem] border-black">
+            </div>
+        </div>
+        <div class="flex flex-wrap justify-center">
             <!-- 1 -->
-            <div class="my-[2rem] ml-[1rem] mr-8 sm:w-[20rem] md:w-[25rem] lg:w-[30rem] xl:w-[35rem]">
-                <p class="my-[1rem]"><svg xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-api-app" width="44" height="44" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M12 15h-6.5a2.5 2.5 0 1 1 0 -5h.5" />
-                        <path d="M15 12v6.5a2.5 2.5 0 1 1 -5 0v-.5" />
-                        <path d="M12 9h6.5a2.5 2.5 0 1 1 0 5h-.5" />
-                        <path d="M9 12v-6.5a2.5 2.5 0 0 1 5 0v.5" />
-                    </svg></p>
-                <p class="text-[1.8rem] w-[60%] font-bold">Custom Software
+            <div class="my-[1rem] ml-[1rem] mr-8 w-[80%] md:w-[40%] lg:w-[28%]">
+                <p class="my-[1rem]">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1567_7619" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
+                    <rect width="40" height="40" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1567_7619)">
+                    <path d="M27.8333 28.8335C27.5278 29.139 27.1461 29.2918 26.6883 29.2918C26.2294 29.2918 25.8333 29.1251 25.5 28.7918C25.1667 28.4585 25 28.0624 25 27.6035C25 27.1457 25.1667 26.7501 25.5 26.4168L31.9583 19.9585L25.4583 13.4585C25.1528 13.1529 25.0067 12.7707 25.02 12.3118C25.0344 11.854 25.1944 11.4724 25.5 11.1668C25.8056 10.8612 26.1944 10.7085 26.6667 10.7085C27.1389 10.7085 27.5278 10.8612 27.8333 11.1668L35.5 18.8335C35.8333 19.1668 36 19.5557 36 20.0001C36 20.4446 35.8333 20.8335 35.5 21.1668L27.8333 28.8335ZM12.1667 28.8335L4.5 21.1668C4.16667 20.8335 4 20.4446 4 20.0001C4 19.5557 4.16667 19.1668 4.5 18.8335L12.1667 11.1668C12.4722 10.8612 12.8611 10.7012 13.3333 10.6868C13.8056 10.6735 14.2083 10.8335 14.5417 11.1668C14.875 11.5001 15.0417 11.8957 15.0417 12.3535C15.0417 12.8124 14.875 13.2085 14.5417 13.5418L8.04167 20.0418L14.5417 26.5418C14.8472 26.8474 14.9933 27.229 14.98 27.6868C14.9656 28.1457 14.8056 28.5279 14.5 28.8335C14.1944 29.139 13.8056 29.2918 13.3333 29.2918C12.8611 29.2918 12.4722 29.139 12.1667 28.8335Z" fill="#F66135"/>
+                    </g>
+                    </svg>
+                    </p>
+                <p class="text-[1.2rem] w-[80%] font-bold my-3">Custom Software
                     Development</p>
-                <p class="text-[1.2rem]">Create custom software tailored for your unique needs, including front-end, and core back-end
+                <p class="text-[1rem]">Create custom software tailored for your unique needs, including front-end, and
+                    core back-end
                     technology.</p>
             </div>
             <!-- 2 -->
-            <div class="my-[2rem] ml-[1rem] mr-8 sm:w-[20rem] md:w-[25rem] lg:w-[30rem] xl:w-[35rem] ">
-                <p class="my-[1rem]"><svg xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-arrow-elbow-left" width="44" height="44" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M3 14v-6h6" />
-                        <path d="M3 8l9 9l9 -9" />
-                    </svg></p>
-                <p class="text-[1.8rem] w-[60%] font-bold">QA and Testing</p>
-                <p class="text-[1.2rem]">Make your technology bulletproof, with manual and automated testing.</p>
+            <div class="my-[1rem] ml-[1rem] mr-8 w-[80%] md:w-[40%] lg:w-[28%]">
+                <p class="my-[1rem]">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1567_6929" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
+                    <rect width="40" height="40" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1567_6929)">
+                    <path d="M11.1667 29.3332C10.9444 29.3332 10.7361 29.2915 10.5417 29.2082C10.3472 29.1248 10.1667 28.9998 10 28.8332L2.95833 21.7915C2.65278 21.4859 2.5 21.0898 2.5 20.6032C2.5 20.1176 2.65278 19.7221 2.95833 19.4165C3.26389 19.1109 3.65278 18.9582 4.125 18.9582C4.59722 18.9582 4.98611 19.1109 5.29167 19.4165L13.5417 27.6665L12.3333 28.8332C12.1667 28.9998 11.9861 29.1248 11.7917 29.2082C11.5972 29.2915 11.3889 29.3332 11.1667 29.3332ZM20.5833 29.2915C20.3611 29.2915 20.1528 29.2565 19.9583 29.1865C19.7639 29.1176 19.5833 28.9998 19.4167 28.8332L12.3333 21.7498C12.0278 21.4443 11.875 21.0482 11.875 20.5615C11.875 20.0759 12.0278 19.6804 12.3333 19.3748C12.6389 19.0693 13.0278 18.9165 13.5 18.9165C13.9722 18.9165 14.3611 19.0693 14.6667 19.3748L20.5833 25.2915L34.75 11.1248C35.0556 10.8193 35.4444 10.6665 35.9167 10.6665C36.3889 10.6665 36.7778 10.8193 37.0833 11.1248C37.3889 11.4304 37.5417 11.8259 37.5417 12.3115C37.5417 12.7982 37.3889 13.1943 37.0833 13.4998L21.75 28.8332C21.5833 28.9998 21.4028 29.1176 21.2083 29.1865C21.0139 29.2565 20.8056 29.2915 20.5833 29.2915ZM20.5833 20.5832L18.2083 18.2498L25.2917 11.1665C25.5972 10.8609 25.9928 10.7082 26.4783 10.7082C26.965 10.7082 27.3611 10.8609 27.6667 11.1665C27.9722 11.4721 28.125 11.8609 28.125 12.3332C28.125 12.8054 27.9722 13.1943 27.6667 13.4998L20.5833 20.5832Z" fill="#FFAC00"/>
+                    </g>
+                    </svg>
+                    </p>
+                <p class="text-[1.2rem] w-[80%] font-bold my-3">QA and Testing</p>
+                <p class="text-[1rem]">Make your technology bulletproof, with manual and automated testing.</p>
             </div>
             <!-- 3 -->
-            <div class="my-[2rem] ml-[1rem] mr-8 sm:w-[20rem]  md:w-[25rem] lg:w-[30rem] xl:w-[35rem] ">
-                <p class="my-[1rem]"><svg xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-balloon" width="44" height="44" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M14 8a2 2 0 0 0 -2 -2" />
-                        <path d="M6 8a6 6 0 1 1 12 0c0 4.97 -2.686 9 -6 9s-6 -4.03 -6 -9" />
-                        <path d="M12 17v1a2 2 0 0 1 -2 2h-3a2 2 0 0 0 -2 2" />
-                    </svg></p>
-                <p class="text-[1.8rem] w-[60%] font-bold">AI and
+            <div class="my-[1rem] ml-[1rem] mr-8 w-[80%] md:w-[40%] lg:w-[28%] ">
+                <p class="my-[1rem]">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1567_7991" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
+                    <rect width="40" height="40" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1567_7991)">
+                    <path d="M11.6667 30C9.83333 30 8.26389 29.3472 6.95833 28.0417C5.65278 26.7361 5 25.1667 5 23.3333C5 21.5 5.65278 19.9306 6.95833 18.625C8.26389 17.3194 9.83333 16.6667 11.6667 16.6667C13.5 16.6667 15.0694 17.3194 16.375 18.625C17.6806 19.9306 18.3333 21.5 18.3333 23.3333C18.3333 25.1667 17.6806 26.7361 16.375 28.0417C15.0694 29.3472 13.5 30 11.6667 30ZM11.6667 26.6667C12.5833 26.6667 13.3678 26.34 14.02 25.6867C14.6733 25.0344 15 24.25 15 23.3333C15 22.4167 14.6733 21.6317 14.02 20.9783C13.3678 20.3261 12.5833 20 11.6667 20C10.75 20 9.96556 20.3261 9.31333 20.9783C8.66 21.6317 8.33333 22.4167 8.33333 23.3333C8.33333 24.25 8.66 25.0344 9.31333 25.6867C9.96556 26.34 10.75 26.6667 11.6667 26.6667ZM27.5 23.3333C24.9444 23.3333 22.7778 22.4444 21 20.6667C19.2222 18.8889 18.3333 16.7222 18.3333 14.1667C18.3333 11.6111 19.2222 9.44444 21 7.66667C22.7778 5.88889 24.9444 5 27.5 5C30.0556 5 32.2222 5.88889 34 7.66667C35.7778 9.44444 36.6667 11.6111 36.6667 14.1667C36.6667 16.7222 35.7778 18.8889 34 20.6667C32.2222 22.4444 30.0556 23.3333 27.5 23.3333ZM24.1667 35C22.7778 35 21.5972 34.5139 20.625 33.5417C19.6528 32.5694 19.1667 31.3889 19.1667 30C19.1667 28.6111 19.6528 27.4306 20.625 26.4583C21.5972 25.4861 22.7778 25 24.1667 25C25.5556 25 26.7361 25.4861 27.7083 26.4583C28.6806 27.4306 29.1667 28.6111 29.1667 30C29.1667 31.3889 28.6806 32.5694 27.7083 33.5417C26.7361 34.5139 25.5556 35 24.1667 35ZM27.5 20C29.1389 20 30.5211 19.4378 31.6467 18.3133C32.7711 17.1878 33.3333 15.8056 33.3333 14.1667C33.3333 12.5278 32.7711 11.1456 31.6467 10.02C30.5211 8.89556 29.1389 8.33333 27.5 8.33333C25.8611 8.33333 24.4789 8.89556 23.3533 10.02C22.2289 11.1456 21.6667 12.5278 21.6667 14.1667C21.6667 15.8056 22.2289 17.1878 23.3533 18.3133C24.4789 19.4378 25.8611 20 27.5 20ZM24.1667 31.6667C24.6389 31.6667 25.035 31.5067 25.355 31.1867C25.6739 30.8678 25.8333 30.4722 25.8333 30C25.8333 29.5278 25.6739 29.1322 25.355 28.8133C25.035 28.4933 24.6389 28.3333 24.1667 28.3333C23.6944 28.3333 23.2989 28.4933 22.98 28.8133C22.66 29.1322 22.5 29.5278 22.5 30C22.5 30.4722 22.66 30.8678 22.98 31.1867C23.2989 31.5067 23.6944 31.6667 24.1667 31.6667Z" fill="#1A73E8"/>
+                    </g>
+                    </svg>
+                    </p>
+                    <p class="text-[1.2rem] w-[80%] font-bold my-3">AI and
                     Data Science</p>
-                <p class="text-[1.2rem]">Use leading AI, machine learning, and data engineering technologies to unlock business value.</p>
+                <p class="text-[1rem]">Use leading AI, machine learning, and data engineering technologies to unlock
+                    business value.</p>
             </div>
             <!-- 4 -->
-            <div class="my-[2rem] ml-[1rem] mr-8 sm:w-[20rem]  md:w-[25rem] lg:w-[30rem] xl:w-[35rem] ">
-                <p class="my-[1rem]"><svg xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-battery-charging" width="44" height="44" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path
-                            d="M16 7h1a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-2" />
-                        <path d="M8 7h-2a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h1" />
-                        <path d="M12 8l-2 4h3l-2 4" />
-                    </svg></p>
-                <p class="text-[1.8rem] w-[60%] font-bold">Mobile App
+            <div class="my-[1rem] ml-[1rem] mr-8 w-[80%] md:w-[40%] lg:w-[28%]">
+                <p class="my-[1rem]">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1567_7270" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
+                    <rect width="40" height="40" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1567_7270)">
+                    <path d="M16.6666 25.0001C16.1944 25.0001 15.7988 24.8401 15.4799 24.5201C15.1599 24.2012 14.9999 23.8056 14.9999 23.3334V22.5001C14.9999 21.1112 15.486 19.9306 16.4583 18.9584C17.4305 17.9862 18.611 17.5001 19.9999 17.5001H21.6666V16.1667C21.6666 15.7779 21.8333 15.514 22.1666 15.3751C22.4999 15.2362 22.8055 15.3056 23.0833 15.5834L26.0833 18.5834C26.1666 18.6667 26.2294 18.7567 26.2716 18.8534C26.3127 18.9512 26.3333 19.0556 26.3333 19.1667C26.3333 19.2223 26.2499 19.4167 26.0833 19.7501L23.0833 22.7501C22.8055 23.0279 22.4999 23.0973 22.1666 22.9584C21.8333 22.8195 21.6666 22.5556 21.6666 22.1667V20.8334H19.9999C19.5277 20.8334 19.1321 20.9929 18.8133 21.3117C18.4933 21.6317 18.3333 22.0279 18.3333 22.5001V23.3334C18.3333 23.8056 18.1738 24.2012 17.8549 24.5201C17.5349 24.8401 17.1388 25.0001 16.6666 25.0001ZM11.6666 38.3334C10.7499 38.3334 9.96547 38.0073 9.31325 37.3551C8.65992 36.7017 8.33325 35.9167 8.33325 35.0001V5.00008C8.33325 4.08341 8.65992 3.29841 9.31325 2.64508C9.96547 1.99286 10.7499 1.66675 11.6666 1.66675H28.3333C29.2499 1.66675 30.0349 1.99286 30.6883 2.64508C31.3405 3.29841 31.6666 4.08341 31.6666 5.00008V35.0001C31.6666 35.9167 31.3405 36.7017 30.6883 37.3551C30.0349 38.0073 29.2499 38.3334 28.3333 38.3334H11.6666ZM11.6666 30.0001H28.3333V10.0001H11.6666V30.0001ZM11.6666 33.3334V35.0001H28.3333V33.3334H11.6666ZM11.6666 6.66675H28.3333V5.00008H11.6666V6.66675Z" fill="#F66135"/>
+                    </g>
+                    </svg>
+                    </p>
+                    <p class="text-[1.2rem] w-[80%] font-bold my-3">Mobile App
                     Development</p>
-                <p class="text-[1.2rem]">Build performant, scalable, and secure mobile applications for iOS and Android devices.</p>
+                <p class="text-[1rem]">Build performant, scalable, and secure mobile applications for iOS and Android
+                    devices.</p>
             </div>
             <!-- 5 -->
-            <div class="my-[2rem] ml-[1rem] mr-8 sm:w-[20rem]  md:w-[25rem] lg:w-[30rem] xl:w-[35rem] ">
-                <p class="my-[1rem]"><svg xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-book-upload" width="44" height="44" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M14 20h-8a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12v5" />
-                        <path d="M11 16h-5a2 2 0 0 0 -2 2" />
-                        <path d="M15 16l3 -3l3 3" />
-                        <path d="M18 13v9" />
-                    </svg></p>
-                <p class="text-[1.8rem] w-[60%] font-bold">UX/UI
+            <div class="my-[1rem] ml-[1rem] mr-8 w-[80%] md:w-[40%] lg:w-[28%]">
+                <p class="my-[1rem]">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1567_6932" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
+                    <rect width="40" height="40" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1567_6932)">
+                    <path d="M21.6667 13.3333V6.66667C21.6667 6.19444 21.8267 5.79833 22.1467 5.47833C22.4656 5.15944 22.8611 5 23.3333 5H33.3333C33.8056 5 34.2011 5.15944 34.52 5.47833C34.84 5.79833 35 6.19444 35 6.66667V13.3333C35 13.8056 34.84 14.2011 34.52 14.52C34.2011 14.84 33.8056 15 33.3333 15H23.3333C22.8611 15 22.4656 14.84 22.1467 14.52C21.8267 14.2011 21.6667 13.8056 21.6667 13.3333ZM5 20V6.66667C5 6.19444 5.16 5.79833 5.48 5.47833C5.79889 5.15944 6.19444 5 6.66667 5H16.6667C17.1389 5 17.535 5.15944 17.855 5.47833C18.1739 5.79833 18.3333 6.19444 18.3333 6.66667V20C18.3333 20.4722 18.1739 20.8678 17.855 21.1867C17.535 21.5067 17.1389 21.6667 16.6667 21.6667H6.66667C6.19444 21.6667 5.79889 21.5067 5.48 21.1867C5.16 20.8678 5 20.4722 5 20ZM21.6667 33.3333V20C21.6667 19.5278 21.8267 19.1317 22.1467 18.8117C22.4656 18.4928 22.8611 18.3333 23.3333 18.3333H33.3333C33.8056 18.3333 34.2011 18.4928 34.52 18.8117C34.84 19.1317 35 19.5278 35 20V33.3333C35 33.8056 34.84 34.2011 34.52 34.52C34.2011 34.84 33.8056 35 33.3333 35H23.3333C22.8611 35 22.4656 34.84 22.1467 34.52C21.8267 34.2011 21.6667 33.8056 21.6667 33.3333ZM5 33.3333V26.6667C5 26.1944 5.16 25.7983 5.48 25.4783C5.79889 25.1594 6.19444 25 6.66667 25H16.6667C17.1389 25 17.535 25.1594 17.855 25.4783C18.1739 25.7983 18.3333 26.1944 18.3333 26.6667V33.3333C18.3333 33.8056 18.1739 34.2011 17.855 34.52C17.535 34.84 17.1389 35 16.6667 35H6.66667C6.19444 35 5.79889 34.84 5.48 34.52C5.16 34.2011 5 33.8056 5 33.3333ZM8.33333 18.3333H15V8.33333H8.33333V18.3333ZM25 31.6667H31.6667V21.6667H25V31.6667ZM25 11.6667H31.6667V8.33333H25V11.6667ZM8.33333 31.6667H15V28.3333H8.33333V31.6667Z" fill="#16A87A"/>
+                    </g>
+                    </svg>
+                    </p>
+                    <p class="text-[1.2rem] w-[80%] font-bold my-3">UX/UI
                     Design
                 </p>
-                <p class="text-[1.2rem]">Create beautiful, pixel-perfect, and easy-to-use designs that delight your end users.</p>
+                <p class="text-[1rem]">Create beautiful, pixel-perfect, and easy-to-use designs that delight your end
+                    users.</p>
             </div>
             <!-- 6 -->
-            <div class="my-[2rem] ml-[1rem] mr-8 sm:w-[20rem]  md:w-[25rem] lg:w-[30rem] xl:w-[35rem] ">
-                <p class="my-[1rem]"><svg xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-brand-ansible" width="44" height="44" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-                        <path d="M9.647 12.294l6.353 3.706l-4 -9l-4 9" />
-                    </svg></p>
-                <p class="text-[1.8rem] w-[60%] font-bold">Platform and
+            <div class="my-[1rem] ml-[1rem] mr-8 w-[80%] md:w-[40%] lg:w-[28%]">
+                <p class="my-[1rem]">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1567_6935" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
+                    <rect width="40" height="40" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1567_6935)">
+                    <path d="M11.6667 15V11.6667H15V15H11.6667ZM11.6667 21.6667V18.3333H15V21.6667H11.6667ZM11.6667 8.33333C11.6667 7.41667 11.9933 6.63167 12.6467 5.97833C13.2989 5.32611 14.0833 5 15 5V8.33333H11.6667ZM18.3333 28.3333V25H21.6667V28.3333H18.3333ZM31.6667 8.33333V5C32.5833 5 33.3683 5.32611 34.0217 5.97833C34.6739 6.63167 35 7.41667 35 8.33333H31.6667ZM18.3333 8.33333V5H21.6667V8.33333H18.3333ZM15 28.3333C14.0833 28.3333 13.2989 28.0072 12.6467 27.355C11.9933 26.7017 11.6667 25.9167 11.6667 25H15V28.3333ZM31.6667 21.6667V18.3333H35V21.6667H31.6667ZM31.6667 15V11.6667H35V15H31.6667ZM31.6667 28.3333V25H35C35 25.9167 34.6739 26.7017 34.0217 27.355C33.3683 28.0072 32.5833 28.3333 31.6667 28.3333ZM8.33333 35C7.41667 35 6.63167 34.6739 5.97833 34.0217C5.32611 33.3683 5 32.5833 5 31.6667V13.3333C5 12.8611 5.16 12.465 5.48 12.145C5.79889 11.8261 6.19444 11.6667 6.66667 11.6667C7.13889 11.6667 7.535 11.8261 7.855 12.145C8.17389 12.465 8.33333 12.8611 8.33333 13.3333V31.6667H26.6667C27.1389 31.6667 27.5344 31.8267 27.8533 32.1467C28.1733 32.4656 28.3333 32.8611 28.3333 33.3333C28.3333 33.8056 28.1733 34.2011 27.8533 34.52C27.5344 34.84 27.1389 35 26.6667 35H8.33333ZM25 8.33333V5H28.3333V8.33333H25ZM25 28.3333V25H28.3333V28.3333H25Z" fill="#F66135"/>
+                    </g>
+                    </svg>
+                    </p>
+                    <p class="text-[1.2rem] w-[80%] font-bold my-3">Platform and
                     Infrastructure</p>
-                <p class="text-[1.2rem]">Ensure applications are secure, fault tolerant and highly available with our DevOps and Security
+                <p class="text-[1rem]">Ensure applications are secure, fault tolerant and highly available with our
+                    DevOps and Security
                     engineers.
 
                 </p>

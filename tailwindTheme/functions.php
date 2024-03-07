@@ -2,6 +2,12 @@
 
 // Load css
 
+function cg_your_theme_scripts() {
+	wp_enqueue_style( 'output', get_template_directory_uri() . '/dist/output.css', array() );
+}
+add_action( 'wp_enqueue_scripts', 'cg_your_theme_scripts' );
+
+
 function load_css()
 {
     // wp_register_style( 'bootstrap', get_template_directory_uri().'/css/bootstrap.min.css', array(), false,'all' );
@@ -35,10 +41,6 @@ add_action('wp_enqueue_scripts', 'ti_custom_javascript');
 
 
 
-function cg_your_theme_scripts() {
-	wp_enqueue_style( 'output', get_template_directory_uri() . '/dist/output.css', array() );
-}
-add_action( 'wp_enqueue_scripts', 'cg_your_theme_scripts' );
 
 // Theme Options
 add_theme_support('menus');

@@ -1,8 +1,9 @@
-<nav class="flex flex-col sm:flex-row justify-between px-5 py-3 drop-shadow-md ">
+<nav class="flex flex-col sm:flex-row justify-between px-5 py-3 drop-shadow-md fixed bg-white z-40 w-[100vw]">
+<!-- <nav class="flex flex-col sm:flex-row justify-between px-5 py-3 drop-shadow-md fixed bg-white mt-[-3rem] z-40 w-[100vw]"> -->
         <div class="text-[2rem]">
             <div class="flex ">
             <div class="w-[80vw] md:w-0 mt-3">
-                    <svg width="150" height="25" viewBox="0 0 188 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="200" height="35" viewBox="0 0 188 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17.8492 0.202026C25.5254 0.202026 31.7482 6.42486 31.7482 14.101C31.7482 21.7771 25.5254 28 17.8492 28V0.202026Z" fill="#F66135"/>
                         <path d="M8.01166 0C15.3615 2.21331 19.5268 9.96358 17.3135 17.3135C15.102 24.6633 7.34989 28.8286 0 26.6153L8.01166 0Z" fill="#F66135"/>
                         <path d="M39.7655 3.39417H48.0145C52.3466 3.39417 54.8621 5.90965 54.8621 9.25374C54.8621 11.2928 53.8426 12.9482 52.2502 13.8713V14.0623C53.7147 14.6666 55.5943 16.2589 55.5943 19.2211C55.5943 23.3289 52.3466 25.6869 48.6522 25.6869H39.7674V3.39417H39.7655ZM47.5047 12.5663C49.4474 12.5663 50.6579 11.3874 50.6579 9.66897C50.6579 7.95058 49.4159 6.89767 47.5696 6.89767H43.8437V12.5663H47.5066H47.5047ZM47.6011 22.0888C49.6717 22.0888 51.1362 21.0693 51.1362 18.8726C51.1362 16.676 49.4159 15.7195 47.4732 15.7195H43.8437V22.0888H47.6011Z" fill="#070707"/>
@@ -61,5 +62,4 @@
                     <button class="">Schedule a Call</button></li></a>
             </ul>
         </div>
-
     </nav>

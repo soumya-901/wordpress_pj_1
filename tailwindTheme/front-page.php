@@ -12,4 +12,8 @@
 
 <?php get_template_part('components/LandingPage/section','promoteSection');?>
 
+<!-- Promote section in Landing page -->
+
+<?php get_template_part('components/LandingPage/section','latest insights');?>
+
 <?php get_footer();?>
