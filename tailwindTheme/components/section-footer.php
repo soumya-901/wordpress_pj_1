@@ -1,10 +1,10 @@
   <!-- footer=================================================== -->
 
-  <footer class="xl:flex">
+  <footer class="xl:flex footer">
         <!-- left  -->
-        <div class="mx-[2rem] py-[6rem] xl:w-[60%]">
+        <div class="mx-[2rem] py-[5rem] xl:w-[60%]">
             <div class="sm:flex gap-7 md:gap-14 ">
-                <div class="mt-[4rem] ">
+                <div class="mt-[4rem] lg:mt-2 ">
 
                     <svg width="70" height="70" viewBox="0 0 49 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -17,49 +17,49 @@
 
                 </div>
                 <ul class="">
-                    <li class="mt-[3rem] text-[1.3rem] font-bold sm:text-[1.5rem]">Discover BairesDev.</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">About Us</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Methodologies</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Technologies</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Certifications</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Our Services</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Dedicated Teams</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Staff Augmentation</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Software Outsourcing</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Expertise</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Diversity</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Social Responsibility</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Senior Advisor Program</li>
+                    <li class="text-[1.3rem] font-bold sm:text-[1.3rem]">Discover BairesDev.</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">About Us</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Methodologies</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Technologies</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Certifications</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Our Services</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Dedicated Teams</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Staff Augmentation</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Software Outsourcing</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Expertise</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Diversity</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Social Responsibility</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Senior Advisor Program</li>
                 </ul>
                 <ul>
-                    <li class="mt-[3rem] text-[1.3rem] font-bold sm:[1.5rem]">Resources.</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Case Studies</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Blog</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Press</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Software Development Insights</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Technologies Insights</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Industries Insights</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Technology Resource Center</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Client Referral Program</li>
+                    <li class="text-[1.3rem] font-bold sm:[1.3rem]">Resources.</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Case Studies</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Blog</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Press</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Software Development Insights</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Technologies Insights</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Industries Insights</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Technology Resource Center</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Client Referral Program</li>
                 </ul>
                 <ul>
-                    <li class="mt-[3rem] text-[1.3rem] font-bold sm:text-[1.5rem]">Careers.</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Job Opportunities</li>
-                    <li class="my-[1rem] text-[.9rem] sm:text-[1.2rem]">Talent Referrals</li>
+                    <li class="text-[1.3rem] font-bold sm:text-[1.3rem]">Careers.</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Job Opportunities</li>
+                    <li class="my-[1rem] text-[.9rem] sm:text-[1rem]">Talent Referrals</li>
                 </ul>
             </div>
             <div class="mt-7 ml-[0] sm:ml-[6rem] md:ml-[8rem]">
                 <ul class="flex flex-wrap gap-2">
-                    <li class="text-[.8rem] md:text-[1rem]">Privacy Policy</li>
-                    <li class="text-[.8rem] md:text-[1rem]">|</li>
-                    <li class="text-[.8rem] md:text-[1rem]">Terms of Service</li>
-                    <li class="text-[.8rem] md:text-[1rem]">|</li>
-                    <li class="text-[.8rem] md:text-[1rem]">Do Not Sell My </li>
-                    <li class="text-[.8rem] md:text-[1rem]">Personal Information</li>
-                    <li class="text-[.8rem] md:text-[1rem]">|</li>
-                    <li class="text-[.8rem] md:text-[1rem]">Privacy Shield Policy</li>
+                    <li class="text-[.8rem] sm:text-[.8rem]">Privacy Policy</li>
+                    <li class="text-[.8rem] sm:text-[.8rem]">|</li>
+                    <li class="text-[.8rem] sm:text-[.8rem]">Terms of Service</li>
+                    <li class="text-[.8rem] sm:text-[.8rem]">|</li>
+                    <li class="text-[.8rem] sm:text-[.8rem]">Do Not Sell My </li>
+                    <li class="text-[.8rem] sm:text-[.8rem]">Personal Information</li>
+                    <li class="text-[.8rem] sm:text-[.8rem]">|</li>
+                    <li class="text-[.8rem] sm:text-[.8rem]">Privacy Shield Policy</li>
                 </ul>
-                <p class="text-[.7rem] md:text-[1rem] mt-5">BairesDev 2009 - 2024. All rights reserved.</p>
+                <p class="text-[.7rem] sm:text-[.8rem] mt-5">BairesDev 2009 - 2024. All rights reserved.</p>
         </div>
         </div>
         <!-- right  -->
@@ -70,9 +70,9 @@
                 <form action="" class="mt-[2rem] ">
                     <label for="" class="text-[1.3rem] md:text-[1.6rem]">Your e-mail address</label>
                     <br>
-                    <div class="md:flex">
+                    <div class="sm:flex">
                     <input type="text" class="h-[2.7rem] w-[17rem] p-2 rounded-[5px] my-[.5rem] md:w-[25rem]" placeholder="name@email.com">
-                    <button class="my-2 flex border-2 border-black rounded-[7px] px-[1.5rem] py-[.4rem] md:ml-4 md:text-[1.5rem] hover:bg-black hover:text-white">Subscribe
+                    <button class="my-2 flex border-2 border-black rounded-[7px] px-[1.5rem] py-[.4rem] sm:ml-4 md:text-[1.5rem] hover:bg-black hover:text-white ">Subscribe
                         <span class="my-auto mx-2"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
@@ -86,10 +86,11 @@
                 </div>
                 </form>
                 <h2 class="text-[1.5rem] font-bold mt-[2rem] sm:text-[2rem]">Get in touch.</h2>
-                <div class="">
-                    <button class="my-4 flex border-2 border-black rounded-[7px] px-[1.5rem] py-[.4rem] text-[1.3rem] sm:text-[1.7rem] sm:my-7 hover:bg-black hover:text-white">Contact Us</button>
-                    <button
-                class="bg-orange-600 text-white py-[.7rem] px-7 rounded-lg text-[1.2rem] mb-3 lg:mb-10 xl:py-5 xl:px-9 xl:text-[1.5rem] xl:my-[1rem] sm:mb-[3rem] md:px-[3rem] md:py-[1rem] hover:bg-orange-800">Schedule a Cal <span>&rarr;</span> </button>
+                <div class="sm:flex">
+                    <button class="my-4 mr-2 flex border-2 border-black rounded-[7px] px-[1.2rem] py-[.3rem] text-[1rem] sm:text-[1.3rem] sm:my-5 hover:bg-black hover:text-white">Contact Us</button>
+                    <button class="my-4 mr-2 flex border-2 bg-orange-500 text-white border-none rounded-[7px] px-[1.2rem] py-[.3rem] text-[1rem] sm:text-[1.3rem] sm:my-5 hover:bg-orange-600">Schedule a Cal <span>&rarr;</span></button>
+                    <!-- <button
+                class="my-4 bg-orange-600 text-white py-[.3rem] px-7 rounded-lg text-[1.2rem] mb-3 lg:mb-10 xl:py-5 xl:px-9 xl:text-[1.5rem] xl:my-[1rem] sm:mb-[3rem] md:px-[3rem] md:py-[.3rem] hover:bg-orange-800">Schedule a Cal <span>&rarr;</span> </button> -->
                 </div>
                 <p class="flex "><span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
