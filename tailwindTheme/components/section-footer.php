@@ -72,7 +72,7 @@
                     <br>
                     <div class="sm:flex">
                     <input type="text" class="h-[2.7rem] w-[17rem] p-2 rounded-[5px] my-[.5rem] md:w-[25rem]" placeholder="name@email.com">
-                    <button class="my-2 flex border-2 border-black rounded-[7px] px-[1.5rem] py-[.4rem] sm:ml-4 md:text-[1.5rem] hover:bg-black hover:text-white ">Subscribe
+                    <button class="my-2 flex border-2 border-black rounded-[7px] px-[1.5rem] py-[.4rem] sm:ml-4 md:text-[1.2rem] hover:bg-black hover:text-white ">Subscribe
                         <span class="my-auto mx-2"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
@@ -89,8 +89,6 @@
                 <div class="sm:flex">
                     <button class="my-4 mr-2 flex border-2 border-black rounded-[7px] px-[1.2rem] py-[.3rem] text-[1rem] sm:text-[1.3rem] sm:my-5 hover:bg-black hover:text-white">Contact Us</button>
                     <button class="my-4 mr-2 flex border-2 bg-orange-500 text-white border-none rounded-[7px] px-[1.2rem] py-[.3rem] text-[1rem] sm:text-[1.3rem] sm:my-5 hover:bg-orange-600">Schedule a Cal <span>&rarr;</span></button>
-                    <!-- <button
-                class="my-4 bg-orange-600 text-white py-[.3rem] px-7 rounded-lg text-[1.2rem] mb-3 lg:mb-10 xl:py-5 xl:px-9 xl:text-[1.5rem] xl:my-[1rem] sm:mb-[3rem] md:px-[3rem] md:py-[.3rem] hover:bg-orange-800">Schedule a Cal <span>&rarr;</span> </button> -->
                 </div>
                 <p class="flex "><span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
