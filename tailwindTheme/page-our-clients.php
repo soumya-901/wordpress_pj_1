@@ -4,6 +4,4 @@
       <?php get_template_part('components/ourClient/section','allClients');?>
     </div>
 
-</div>
-
 <?php get_footer();?>

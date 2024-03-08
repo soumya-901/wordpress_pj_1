@@ -48,14 +48,14 @@
         <div class="hidden md:block" id="nav">
             <ul class="gap-[.7rem] sm:gap-[.5rem] flex flex-col text-left sm:flex-row sm:items-center">
                 <li
-                    class="pl-[2.5rem] mt-[2rem] sm:mt-0 sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold">
+                    class="pl-[.6rem] mt-[2rem] sm:mt-0 sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold">
                     <a href="http://localhost/wordpress/index.php">Services</a></li>
-                <li class="pl-[2.5rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/our-clients/">Our
+                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/our-clients/">Our
                 Clients</a></li>
-                <li class="pl-[2.5rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/about">About</a>
+                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/about">About</a>
                 </li>
-                <li class="pl-[2.5rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/blog/">Blog</a></li>
-                <li class="pl-[2.5rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="">Careers</a>
+                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/blog/">Blog</a></li>
+                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="">Careers</a>
                 </li>
                 <a href="http://localhost/wordpress/index.php/contact-form/"><li
                     class="ml-[.5rem] w-[8rem] text-center sm:px-[.2rem] sm:text-[.6rem] lg:text-[.7rem] lg:px-[.5rem] font-bold text-white bg-black rounded-lg py-3 ">
