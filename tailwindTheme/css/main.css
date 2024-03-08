@@ -27,3 +27,7 @@
         background-image: none;
     }
 }
+
+#customnavbar {
+    transition: top 0.3s;
+}
