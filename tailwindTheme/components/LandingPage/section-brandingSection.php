@@ -5,8 +5,9 @@
                 Completion: Our Full-Stack Expertise.</h2>
             </div>
                 <div class="">
-            <button class="m-4 text-[1rem] hover:ml-[3rem] xl:mt-[4rem]">Everything we do
-                &rarr;</button>
+            <button class="ml-4 mb-2 text-[1rem] hover:ml-[2rem] xl:mt-[4rem] transition-all duration-500 ease-in-out">Everything we do
+                &rarr;
+            </button>
                 <hr class="w-[12rem] ml-[1rem] border-[.05rem] border-black">
             </div>
         </div>

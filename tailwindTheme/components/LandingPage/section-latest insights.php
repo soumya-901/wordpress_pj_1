@@ -2,7 +2,7 @@
     <div class="flex flex-col lg:flex-row xl:mx-[10%]">
             <p class=" m-4 text-[1.7rem] py-[2rem] lg:w-[80%] lg:text-[3rem] lg:m-0">Our latest insights.</p>
             <div class="mt-[-3rem] lg:mt-[3rem] xl:mt-[-3rem]">
-            <button class="m-4 text-[.8rem] hover:ml-[3rem] xl:mt-[6rem]">Over 1,100 articles on technology and talent
+            <button class="my-4 ml-4 text-[.8rem] hover:ml-[3rem] xl:mt-[6rem] transition-all duration-500 ease-in-out">Over 1,100 articles on technology and talent
                 &rarr;</button>
                 <hr class="w-[20rem] ml-[1rem] border-[.05rem] border-black">
                 </div>
