@@ -21,7 +21,7 @@
         <div class=" w-[20rem]">
             <a href="">
             <!-- <img src="./img/customer-1.avif" alt=""> -->
-            <img class=" rounded-lg w-[18rem] m-auto" src="https://th.bing.com/th?id=OIP.Ck2Usj84bIh_SiI2QJ7b-QHaEp&w=315&h=198&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="">
+            <img class=" rounded-lg w-[18rem] m-auto" src="..\..\img\home.jpg" alt="">
             <p class="font-bold w-[16rem] text-wrap m-auto pl-[2px]">How Citizen Developers Can Transform Your Company</p>
             </a>
             <!-- <div>
