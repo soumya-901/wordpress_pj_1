@@ -1,6 +1,6 @@
 <?php if(have_posts()):while(have_posts(  )):the_post( );?>
 
-    <h3><?php the_title(); ?> </h3>
+    <h3 class="bg-pink-400"><?php the_title(); ?> </h3>
         <div class="img-fluid">
             
             <?php if ( has_post_thumbnail()) : ?>

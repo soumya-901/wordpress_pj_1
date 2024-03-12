@@ -1,7 +1,7 @@
 <div class=" px-[2rem] xl:px-[8rem] py-[4rem] gap-4">
         <div class="xl:flex xl:justify-center ">
             <div class="xl:w-[80%]">
-            <h2 class="text-[1.8rem] my-[3rem] mx-2 font-bold md:text-[2.5rem] md:w-[50%] lg:mt-6 lg:w-[70%] ">From Concept to
+            <h2 class="text-[1.8rem] my-[3rem] mx-2 font-bold md:text-[2.5rem] md:w-[50%] lg:mt-6 lg:w-[60%] ">From Concept to
                 Completion: Our Full-Stack Expertise.</h2>
             </div>
                 <div class="">

@@ -1,4 +1,4 @@
-<nav id="customnavbar" class="flex flex-col sm:flex-row justify-between px-5 py-3 drop-shadow-md fixed bg-white z-40 w-[100vw] transition-all duration-500 ">
+<nav id="customnavbar" class="flex flex-col sm:flex-row justify-between px-5 py-3 drop-shadow-md bg-white z-40 w-[99vw] transition-all duration-500 sticky top-0">
 <!-- <nav class="flex flex-col sm:flex-row justify-between px-5 py-3 drop-shadow-md fixed bg-white mt-[-3rem] z-40 w-[100vw]"> -->
         <div class="text-[2rem]">
             <div class="flex ">
@@ -31,7 +31,7 @@
                         </svg>
                     </div>
                     <!-- == -->
-                    <div id="crus" class="hidden">
+                    <div id="crus" class="hidden sm:mr-[4rem]">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x nav_toggle"
                             width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
                             stroke-linecap="round" stroke-linejoin="round">
@@ -47,15 +47,35 @@
         <!-- <div class="hidden md:block"> -->
         <div class="hidden md:block" id="nav">
             <ul class="gap-[.7rem] sm:gap-[.5rem] flex flex-col text-left sm:flex-row sm:items-center">
-                <li
-                    class="pl-[.6rem] mt-[2rem] sm:mt-0 sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold">
-                    <a href="http://localhost/wordpress/index.php">Services</a></li>
+                <li id=""
+                    class="pl-[.6rem] mt-[2rem] sm:mt-0 sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold ">
+                    <a href="#" onclick="fropFunction()">Services</a>
+                    <ul  class=" dropdown bg-slate-300 h-[5rem] w-[10rem] hidden absolute">
+            <li><a href="http://localhost/wordpress/index.php">HTML</a></li>
+            <li><a href="">CSS</a></li> 
+            <li><a href="">JS</a></li>
+        </ul></li>
                 <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/our-clients/">Our
                 Clients</a></li>
-                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/about">About</a>
+                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold">
+                    <a href=""  onclick="fropFunction()">
+                    About
+                    <ul  class=" dropdown bg-slate-300 h-[5rem] w-[10rem] hidden absolute">
+            <li><a href="http://localhost/wordpress/index.php/about">HTML</a></li>
+            <li><a href="">CSS</a></li> 
+            <li><a href="">JS</a></li>
+        </ul>
+                </a>
                 </li>
                 <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/blog/">Blog</a></li>
-                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="">Careers</a>
+                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold">
+                    <a href="" onclick="fropFunction()">
+                        Careers
+                        <ul  class=" dropdown bg-slate-300 h-[5rem] w-[10rem] hidden absolute">
+            <li><a href="http://localhost/wordpress/index.php/about">HTML</a></li>
+            <li><a href="">CSS</a></li> 
+            <li><a href="">JS</a></li>
+        </ul></a>
                 </li>
                 <a href="http://localhost/wordpress/index.php/contact-form/"><li
                     class="ml-[.5rem] w-[8rem] text-center sm:px-[.2rem] sm:text-[.6rem] lg:text-[.7rem] lg:px-[.5rem] font-bold text-white bg-black rounded-lg py-3 ">

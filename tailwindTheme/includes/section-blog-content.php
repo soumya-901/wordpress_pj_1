@@ -9,7 +9,7 @@
       $email = get_the_author_email();
     ?>
 
-    <div>
+    <div class="bg-green-400">
         Posted BY: <?php echo $firstname;?>  <?php echo $lastname;?>
     </div>
     <p>Date - <?php echo wp_date( 'F j, Y' );?> <?php echo wp_date( 'g:i a' );?></p>

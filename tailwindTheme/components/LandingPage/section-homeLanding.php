@@ -1,5 +1,5 @@
 <!-- home=================================================== -->
-<div class=" home h-[80vh] xl:h-[100vh] z-0 ">
+<div class=" home h-[80vh] xl:h-[100vh] z-0">
         <div class="lg:pl-[5rem] home-in p-5 pt-10">
             <h1
                 class=" text-[2.7rem] font-bold md:text-[4rem] w-[80%] md-[2rem] lg:text-[5rem] xl:w-[60%] xl:text-[4rem] 2xl:w-[50%] mt-[3rem]">

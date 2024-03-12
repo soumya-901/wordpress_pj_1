@@ -1,3 +1,4 @@
+/* home img ========================== */
 .home {
     background-image: url(../img/home.jpg);
     background-size: cover;
@@ -18,7 +19,8 @@
 }
 
 
-@media only screen and (max-width: 1400px) {
+
+@media only screen and (max-width: 1200px) {
     .home {
         background-image: none;
         background-color: rgb(233, 233, 233);
@@ -31,4 +33,14 @@
 
 #customnavbar {
     transition: top 0.3s;
+}
+
+
+/* navebar dropdown ========================== */
+.dropdown{
+display: none;
+}
+
+nav ul li:hover ul.dropdown{
+    display: block;
 }

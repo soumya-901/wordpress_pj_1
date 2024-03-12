@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<div class="container">
+<div class="container ">
     <h3><?php the_title();?></h3>
   <div>
     <?php if(has_post_thumbnail()):?>
