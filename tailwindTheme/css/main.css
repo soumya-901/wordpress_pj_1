@@ -44,3 +44,15 @@ display: none;
 nav ul li:hover ul.dropdown{
     display: block;
 }
+
+/* ========================== outClick section-allClients=============== */
+
+.word{
+    display: none;
+}
+.aerrow:hover{
+    color: orangered;
+}
+.aerrow:hover .card_part.word{
+    display: block;
+}
