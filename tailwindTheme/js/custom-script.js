@@ -27,8 +27,8 @@ const toggle_menu = (e) => {
 
 // -------------------------------- nav bar dropdown ----------------------------------
 
-const Dropdown = document.querySelectorAll(".dropdown");
-const fropFunction = (e) => {
-  Dropdown.classList.toggle("hidden");
-  console.log("hellow");
-}
+// const Dropdown = document.querySelectorAll(".dropdown");
+// const fropFunction = (e) => {
+//   Dropdown.classList.toggle("hidden");
+//   console.log("hellow");
+// }

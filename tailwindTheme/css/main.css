@@ -45,6 +45,22 @@ nav ul li:hover ul.dropdown{
     display: block;
 }
 
+/* ==================== dropdown design ========================== */
+
+.dropdown{
+    background: pink;
+    right: 20rem;
+    top: 4rem;
+    padding: 2rem;
+}
+
+.dropdown li a{    
+}
+.dropdown li p{
+    font-weight: normal;
+
+}
+
 /* ========================== outClick section-allClients=============== */
 
 .word{
