@@ -1,6 +1,6 @@
 <?php get_header();?>
-
-<div class="container">
+<?php get_template_part('components/BlogPage/section','header');?>
+<div class="bg-pink-400">
   <div>
     catagory name - <?php echo single_cat_title();?>
     <?php get_template_part('includes/section','archive');?>

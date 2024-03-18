@@ -1,4 +1,4 @@
-<nav id="customnavbar" class="flex flex-col sm:flex-row justify-between px-5 py-3 drop-shadow-md bg-white z-40 w-[98vw] transition-all duration-500 sticky top-0">
+<nav id="customnavbar" class="flex flex-col sm:flex-row justify-between px-5 py-3 drop-shadow-md bg-white z-40 w-[100%] transition-all duration-500 sticky top-0">
 <!-- <nav class="flex flex-col sm:flex-row justify-between px-5 py-3 drop-shadow-md fixed bg-white mt-[-3rem] z-40 w-[100vw]"> -->
         <div class="text-[2rem]">
             <div class="flex ">
