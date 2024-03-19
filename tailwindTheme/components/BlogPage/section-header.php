@@ -27,5 +27,7 @@
         echo '<li class = "w-fit py-0.5 "><a class = " xl:pr-[2rem] text-xl text-gray-600" href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
       }
       ?>
+      <?php get_search_form();?>
+
     </ul>
   </div>

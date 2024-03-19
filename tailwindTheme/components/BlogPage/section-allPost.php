@@ -1,9 +1,4 @@
-<div class="lg:flex mx-[1rem] lg:mx-[7rem] ">
 
-<div class="w-[100%] md:w-[60vw] bg-slate-200">Loading </div>
-<div class="w-[100%] md:w-[40vw]">
-
-<h1 class="text-gray-600 font-bold text-[1.7rem] px-[1rem] ">Latest posts</h1>
 <?php
 
 
@@ -19,11 +14,40 @@ $latest_post = get_posts(array(
 
 $latest_post_id = !empty($latest_post) ? $latest_post[0]->ID : 0;
 // setup_postdata( $latest_post_id[0] );
-?>
 
+// Check if the latest post exists
+if ($latest_post) {
+        $post = $latest_post[0];
+        // Access post details
+        $post_title = $post->post_title; // Post title
+        $post_content = $post->post_content; // Post content        
+        $post_author = get_the_author_meta('display_name', $post->post_author); // Post author
+        $post_permalink = get_permalink($post->ID); // Post permalink
+        $post_thumbnail = get_the_post_thumbnail($post->ID, 'thumbnail'); // Featured image
+        
+        // Output post details
+        // echo '<div class="latest-post">';
+        // Output post details
+        echo '<h2><p><a href="' . $post_permalink . '">' . $post_title . '</a></p></h2>';
+        if ($post_thumbnail) {
+            echo '<div class="post-thumbnail">' . $post_thumbnail . '</div>';
+        }
+        echo '<div>' . $post_content . '</div>';
+        echo '<div> BY ' . $post_author . '</div>';
+    // Reset post data
+} else {
+    echo 'No posts found.';
+}
+?>
+<div class="lg:flex mx-[1rem] lg:mx-[7rem] ">
+
+<div class="w-[100%] md:w-[60vw] bg-slate-200">Loading </div>
+<div class="w-[100%] md:w-[40vw]">
+
+<h1 class="text-gray-600 font-bold text-[1.7rem] px-[1rem] ">Latest posts</h1>
 
 <?php
-
+wp_reset_postdata();
 $args = array(
     'post_type' => 'post',
     'posts_per_page' => 5, 
