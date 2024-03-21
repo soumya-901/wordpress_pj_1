@@ -48,21 +48,35 @@
         <div class="hidden md:block" id="nav">
             <ul class="gap-[.7rem] sm:gap-[.5rem] flex flex-col text-left sm:flex-row sm:items-center">
                 <li id=""
-                    class="pl-[.6rem] mt-[2rem] sm:mt-0 sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold">
-                    <a href="#" onclick="fropFunction()">Services</a>
-                    <ul  class=" dropdown absolute xl:w-[30rem]">
-                    <!-- <ul  class=" dropdown bg-slate-300 h-[5rem] w-[10rem] hidden absolute"> -->
-            <li><a href="http://localhost/wordpress/index.php">Software Development Services.</a>
+                    class="pl-[.6rem] mt-[2rem] sm:mt-0 sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold relative">
+                    <a href="http://localhost/wordpress/index.php" onclick="fropFunction()">Services</a>
+                    <ul  class=" dropdown absolute xl:w-[50rem]">
+            <li class=" border-b-2 border-gray-300"><a href="http://localhost/wordpress/index.php">Software Development Services.</a>
                 <p class="ont-thin">Accelerate your tech projects with outsourced development. Flexible engagement models, tailored to you.</p>
-                <hr>
-        </li>
-            <li><a href="">CSS</a></li> 
+            </li>
+            <!-- === -->
+            <li class="flex justify-between">
+                <!-- <a href="">Engagement models.</a> -->
+
+            
+            <div>
+                <a class="font-bold ">Engagement models.</a>
+                <p>You can hire our software developers in different ways</p>
+            </div>
+            
+            <div ><a class="font-bold">Technologies.</a></div>
+
+            <div><a  class="font-bold">
+                Solutions.
+            </a></div>
+        </li> 
+        <!-- ==== -->
             <li><a href="">JS</a></li>
-        </ul></li>
+            </ul></li>
                 <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/our-clients/">Our
                 Clients</a></li>
                 <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold">
-                    <a href=""  onclick="fropFunction()">
+                    <a href="http://localhost/wordpress/about/"  onclick="fropFunction()">
                     About
                     <ul  class=" dropdown bg-slate-300 h-[5rem] w-[10rem] hidden absolute">
             <li><a href="http://localhost/wordpress/index.php/about">HTML</a></li>
@@ -72,15 +86,6 @@
                 </a>
                 </li>
                 <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/blog/">Blog</a></li>
-                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold">
-                    <a href="" onclick="fropFunction()">
-                        Careers
-                        <ul  class=" dropdown bg-slate-300 h-[5rem] w-[10rem] hidden absolute">
-            <li><a href="http://localhost/wordpress/index.php/about">HTML</a></li>
-            <li><a href="">CSS</a></li> 
-            <li><a href="">JS</a></li>
-        </ul></a>
-                </li>
                 <a href="http://localhost/wordpress/index.php/contact-form/"><li
                     class="ml-[.5rem] w-[8rem] text-center sm:px-[.2rem] sm:text-[.6rem] lg:text-[.7rem] lg:px-[.5rem] font-bold text-white bg-black rounded-lg py-3 hover:bg-slate-500">
                     <button class="">Schedule a Call</button></li></a>

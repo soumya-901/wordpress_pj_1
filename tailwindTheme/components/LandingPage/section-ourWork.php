@@ -8,7 +8,7 @@
 
 <div class="my-[1rem] mx-auto sm:flex lg:w-[80vw] w-[100%]">
         <div class="mx-[1rem] sm:mr-0 md:w-[70vw]">
-            <img class="rounded-t-lg sm:rounded-tr-none sm:rounded-l-lg h-[15rem] md:h-[18rem] lg:h-[20rem] w-[100%]" src="https://t3.ftcdn.net/jpg/02/77/55/50/360_F_277555027_W1DvqbFOYVVIskhStHc003OHDExdIBFf.jpg" alt="">
+            <img class="rounded-t-lg sm:rounded-tr-none sm:rounded-l-lg h-[15rem] md:h-[18rem] lg:h-[20rem] w-[100%]" src="http://localhost/wordpress/wp-content/uploads/2024/03/th-1.jpeg" alt="">
         </div>
         <div class="bg-slate-100 shadow-lg mx-[1rem] sm:ml-0 p-[2rem] h-[15rem] md:h-[18rem] lg:h-[20rem] rounded-b-lg sm:rounded-bl-none sm:rounded-r-lg md:w-[50vw]">
             <p class="text-[1.3rem] font-medium pb-1 md:text-[1.5rem] text-wrap">

@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 }
 ?>
 
-<div class=" mx-[30%] mt-[5rem] mb-4">
+<div class=" mx-[30%] mt-[2rem] mb-4">
     <div class="my-[3rem] mx-[-10px]"><svg width="200" height="35" viewBox="0 0 188 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17.8492 0.202026C25.5254 0.202026 31.7482 6.42486 31.7482 14.101C31.7482 21.7771 25.5254 28 17.8492 28V0.202026Z" fill="#F66135"/>
                         <path d="M8.01166 0C15.3615 2.21331 19.5268 9.96358 17.3135 17.3135C15.102 24.6633 7.34989 28.8286 0 26.6153L8.01166 0Z" fill="#F66135"/>
@@ -73,4 +73,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 </div>
 </div>
 
-<?php get_footer(); ?>
+<?php wp_footer();?>
+</body>
+</html>

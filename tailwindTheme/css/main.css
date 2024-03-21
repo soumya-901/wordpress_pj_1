@@ -48,13 +48,14 @@ nav ul li:hover ul.dropdown{
 /* ==================== dropdown design ========================== */
 
 .dropdown{
-    background: pink;
-    right: 20rem;
-    top: 4rem;
+    background: rgb(255, 255, 255);
+    left: -25rem;
+    top: 3rem;
     padding: 2rem;
 }
 
 .dropdown li a{    
+    /* background: pink; */
 }
 .dropdown li p{
     font-weight: normal;

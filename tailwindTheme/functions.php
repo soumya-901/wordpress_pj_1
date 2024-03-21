@@ -47,8 +47,8 @@ add_theme_support('menus');
 add_theme_support('post-thumbnails');
 add_theme_support('widgets');
 
-add_image_size( 'blog-large', 800, 400, true );
-add_image_size( 'blog-small', 600, 300, true );
+// add_image_size( 'blog-large', 800, 400, true );
+// add_image_size( 'blog-small', 600, 300, true );
 
 
 
