@@ -6,4 +6,5 @@
     <h2 class="text-[2rem] text-orange-600 lg:text-[2.5rem]">See how we can help.</h2>
     <button class="bg-green-700 text-white rounded-lg py-3 px-5 mt-10 text-[1.2rem] lg:text-[1.5rem]">Schedule a Call</button>
     </div>
+   
 </div>

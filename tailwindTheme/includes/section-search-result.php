@@ -14,7 +14,7 @@
         </div>
             <div class="px-[1rem]">
     <?php the_excerpt() ;?>  
-    <a href="<?php the_permalink();?>">Read more...</a>
+   
     </div>
             </div>
     <div class="bg-yellow-400 ">

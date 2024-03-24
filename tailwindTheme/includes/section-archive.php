@@ -13,7 +13,7 @@
         </div>
         <div class="text-[1rem] p-[1rem]">
             <?php the_excerpt() ;?>  
-            <a href="<?php the_permalink();?>">Read more...</a>
+            
         </div>
 </div>
 <?php endwhile; else: endif;?>

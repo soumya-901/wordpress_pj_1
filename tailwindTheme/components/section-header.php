@@ -1,9 +1,7 @@
-<nav id="customnavbar" class="flex flex-col sm:flex-row justify-between px-5 py-3 drop-shadow-md bg-white z-40 w-[100%] transition-all duration-500 sticky top-0">
-<!-- <nav class="flex flex-col sm:flex-row justify-between px-5 py-3 drop-shadow-md fixed bg-white mt-[-3rem] z-40 w-[100vw]"> -->
-        <div class="text-[2rem]">
-            <div class="flex ">
-            <div class="w-[80vw] md:w-0 mt-3">
-                    <svg width="200" height="35" viewBox="0 0 188 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <nav class="">
+        <!-- --------- logo ------------  -->
+        <div class="logo">
+          <svg width="200" height="35" viewBox="0 0 188 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17.8492 0.202026C25.5254 0.202026 31.7482 6.42486 31.7482 14.101C31.7482 21.7771 25.5254 28 17.8492 28V0.202026Z" fill="#F66135"/>
                         <path d="M8.01166 0C15.3615 2.21331 19.5268 9.96358 17.3135 17.3135C15.102 24.6633 7.34989 28.8286 0 26.6153L8.01166 0Z" fill="#F66135"/>
                         <path d="M39.7655 3.39417H48.0145C52.3466 3.39417 54.8621 5.90965 54.8621 9.25374C54.8621 11.2928 53.8426 12.9482 52.2502 13.8713V14.0623C53.7147 14.6666 55.5943 16.2589 55.5943 19.2211C55.5943 23.3289 52.3466 25.6869 48.6522 25.6869H39.7674V3.39417H39.7655ZM47.5047 12.5663C49.4474 12.5663 50.6579 11.3874 50.6579 9.66897C50.6579 7.95058 49.4159 6.89767 47.5696 6.89767H43.8437V12.5663H47.5066H47.5047ZM47.6011 22.0888C49.6717 22.0888 51.1362 21.0693 51.1362 18.8726C51.1362 16.676 49.4159 15.7195 47.4732 15.7195H43.8437V22.0888H47.6011Z" fill="#070707"/>
@@ -17,78 +15,49 @@
                         <path d="M170.658 8.93677H174.99L178.97 20.7523H179.226L183.174 8.93677H187.601L181.454 25.6887H176.773L170.658 8.93677Z" fill="#070707"/>
                         </svg>
 
-                </div>
-                <!-- berger  -->
-                <button class=" md:hidden" onclick="toggle_menu()">
-                    <div id="menu" class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="44"
-                            height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 6l16 0" />
-                            <path d="M4 12l16 0" />
-                            <path d="M4 18l16 0" />
-                        </svg>
-                    </div>
-                    <!-- == -->
-                    <div id="crus" class="hidden sm:mr-[4rem]">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x nav_toggle"
-                            width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M18 6l-12 12" />
-                            <path d="M6 6l12 12" />
-                        </svg>
-                    </div>
-                </button>
-            </div>
         </div>
-
-        <!-- <div class="hidden md:block"> -->
-        <div class="hidden md:block" id="nav">
-            <ul class="gap-[.7rem] sm:gap-[.5rem] flex flex-col text-left sm:flex-row sm:items-center">
-                <li id=""
-                    class="pl-[.6rem] mt-[2rem] sm:mt-0 sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold relative">
-                    <a href="http://localhost/wordpress/index.php" onclick="fropFunction()">Services</a>
-                    <ul  class=" dropdown absolute xl:w-[50rem]">
-            <li class=" border-b-2 border-gray-300"><a href="http://localhost/wordpress/index.php">Software Development Services.</a>
-                <p class="ont-thin">Accelerate your tech projects with outsourced development. Flexible engagement models, tailored to you.</p>
-            </li>
-            <!-- === -->
-            <li class="flex justify-between">
-                <!-- <a href="">Engagement models.</a> -->
-
-            
-            <div>
-                <a class="font-bold ">Engagement models.</a>
-                <p>You can hire our software developers in different ways</p>
-            </div>
-            
-            <div ><a class="font-bold">Technologies.</a></div>
-
-            <div><a  class="font-bold">
-                Solutions.
-            </a></div>
-        </li> 
-        <!-- ==== -->
-            <li><a href="">JS</a></li>
-            </ul></li>
-                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/our-clients/">Our
-                Clients</a></li>
-                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold">
-                    <a href="http://localhost/wordpress/about/"  onclick="fropFunction()">
-                    About
-                    <ul  class=" dropdown bg-slate-300 h-[5rem] w-[10rem] hidden absolute">
-            <li><a href="http://localhost/wordpress/index.php/about">HTML</a></li>
-            <li><a href="">CSS</a></li> 
-            <li><a href="">JS</a></li>
-        </ul>
-                </a>
+        <!-- ------------ middle -------------  -->
+        <div>
+            <ul>
+                <li><a href="http://localhost/wordpress/index.php">Services</a> </li>
+                <li><a href="http://localhost/wordpress/about/">About</a></li>
+                <li><a href="http://localhost/wordpress/index.php/blog">Blog</a></li>
+                <li class="drop" onclick="dropdow()"><a href="http://localhost/wordpress/index.php/our-clients/">Our
+                Clients
+                        <div class="">
+                            <p id="top" class="">&#9013;</p>
+                        </div>
+                    </a>
+                    <ul>
+                        <li>children 1</li>
+                        <li>children 2</li>
+                        <li>children 3</li>
+                    </ul>
                 </li>
-                <li class="pl-[.6rem] sm:px-[.5rem] sm:text-[.8rem] lg:text-[1rem] lg:px-[.7rem] font-bold"><a href="http://localhost/wordpress/index.php/blog/">Blog</a></li>
                 <a href="http://localhost/wordpress/index.php/contact-form/"><li
                     class="ml-[.5rem] w-[8rem] text-center sm:px-[.2rem] sm:text-[.6rem] lg:text-[.7rem] lg:px-[.5rem] font-bold text-white bg-black rounded-lg py-3 hover:bg-slate-500">
                     <button class="">Schedule a Call</button></li></a>
             </ul>
+        </div>
+        <!-- ----------- berger ------------- -->
+        <div id="bergerChange" class="berger" onclick="resNav()">
+            <div class="changeBerger">
+                <div class="ber"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2"
+                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 6l16 0" />
+                        <path d="M4 12l16 0" />
+                        <path d="M4 18l16 0" />
+                    </svg></div>
+                <!-- ---------  -->
+                <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-rounded-x"
+                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10 10l4 4m0 -4l-4 4" />
+                        <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+                    </svg></div>
+            </div>
         </div>
     </nav>

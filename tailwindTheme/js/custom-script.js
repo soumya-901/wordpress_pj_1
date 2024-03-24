@@ -1,12 +1,53 @@
-const menu = document.getElementById("menu");
-const crus = document.getElementById("crus");
-const nav = document.getElementById("nav");
-const toggle_menu = (e) => {
-  nav.classList.toggle("hidden");
-  menu.classList.toggle("hidden");
-  crus.classList.toggle("hidden");
-  console.log("program", menu, crus);
-};
+// nav bar ==============
+const Top = document.getElementById("top");
+const Ber = document.querySelector(".ber");
+const Cont = document.querySelector(".cont");
+const Nav = document.querySelector("nav");
+const Drop = document.querySelector("nav ul");
+const SDrop = document.querySelector("nav ul li ul");
+
+function dropdow() {
+  Top.classList.toggle("rot");
+
+  // ==========single drop  =============
+  if (isShow) {
+    SDrop.style.display = "block";
+    isShow = false;
+  } else {
+    SDrop.style.display = "none";
+    isShow = true;
+  }
+}
+
+let isShow = true;
+function resNav() {
+  // ========= btn cros ============
+
+  Ber.classList.toggle("bnone");
+
+  // ==========up down =============
+  // if (isShow) {
+  //     Nav.style.height = "100vh";
+  //     isShow = false;
+  // } else {
+  //     Nav.style.height = "3rem";
+  //     isShow = true;
+  // }
+
+  // ===============drop down ================
+
+  if (isShow) {
+    Nav.style.height = "100vh";
+    Drop.style.display = "block";
+    isShow = false;
+  } else {
+    Nav.style.height = "3rem";
+    Drop.style.display = "none";
+    isShow = true;
+  }
+}
+
+// ============scroll================
 
 // let prevScrollpos = window.scrollY;
 // window.onscroll = function() {
@@ -17,18 +58,10 @@ const toggle_menu = (e) => {
 //       // document.getElementById("customnavbar").classList.add('translate-y-full');
 //         document.getElementById("customnavbar").style.display = "none";
 //       } else {
-//         document.getElementById("customnavbar").style.display = ""; 
+//         document.getElementById("customnavbar").style.display = "";
 //         // document.getElementById("customnavbar").classList.remove('translate-y-full');
 //         // Change this value to adjust how much the navbar hides
 //         // console.log("the document ",document.getElementById("customnavbar"))
 //     }
 //     prevScrollpos = currentScrollPos;
-// }
-
-// -------------------------------- nav bar dropdown ----------------------------------
-
-// const Dropdown = document.querySelectorAll(".dropdown");
-// const fropFunction = (e) => {
-//   Dropdown.classList.toggle("hidden");
-//   console.log("hellow");
 // }

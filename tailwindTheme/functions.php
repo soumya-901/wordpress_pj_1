@@ -77,6 +77,14 @@ function my_widgets(){
         'after_title'=>'</h4>'
     ) );
 
-
 }
 add_action('widgets_init','my_widgets');
+
+add_filter( 'excerpt_more', 'new_excerpt_more' );
+function new_excerpt_more( $more ){
+	global $post;
+	return '<div> <a href="'. get_permalink($post) . '"> Read more...</a> </div> ';
+}
+add_filter( 'excerpt_length', function(){
+	return 20;
+} );

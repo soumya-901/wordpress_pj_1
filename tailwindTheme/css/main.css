@@ -1,3 +1,236 @@
+/* =========== nave==================== */
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  body{
+    margin-top: 3rem;
+  }
+
+  nav {
+    margin-top: -3rem;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 10px -7px 24px 1px rgb(198 198 198);
+      height: 3rem;
+      width: 100%;
+      padding: 1vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      z-index: 1;
+  }
+
+  .logo {
+      /* background: paleturquoise; */
+      margin-left: 5vw;
+      padding: 1vw;
+  }
+
+  nav ul {
+      margin-right: 3vw;
+      display: flex;
+      gap: 1vw;
+  }
+
+  nav ul li {
+      list-style: none;
+      position: relative;
+  }
+
+  /* nav ul li:hover {
+        border-bottom: 2px solid orangered;
+    } */
+
+  nav ul li a {
+      text-decoration: none;
+      color: black;
+      padding: .5vw;
+      z-index: 9;
+      position: relative;
+
+      display: flex;
+      transition: all 0.5s ease-out;
+  }
+
+  nav ul li a span {
+      margin: 0;
+      /* background: gray; */
+      padding: 0;
+      bottom: 1;
+      position: absolute;
+      left: 3.6vw;
+  }
+
+  nav ul li a:hover {
+      color: orangered;
+  }
+
+  .rot {
+      display: block;
+      transform: rotate(180deg);
+  }
+
+  nav ul li ul {
+      /* background-color: white; */
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 30px;
+      padding: 1vw;
+      display: none;
+      height: 100%;
+        left: -96px;
+            width: 17rem;
+            height: 12rem;
+            transition: all 3s linear;
+  }
+
+  nav ul li ul li {
+    padding: 10px;
+  }
+
+
+  nav ul li:hover ul {
+      display: block;
+  }
+
+  nav ul li ul:hover {
+      display: block;
+  }
+
+  .drop {
+      display: flex;
+      align-items: center;
+  }
+
+  .head {
+      width: 100%;
+      height: 100vh;
+      /* background: pink; */
+      text-align: center;
+  }
+
+  .berger {
+      position: relative;
+  }
+
+  .changeBerger {
+      /* background: green; */
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      padding: 10px;
+      top: -30px;
+      height: 11vw;
+      /* transition: all easy 0.2s; */
+  }
+
+  .bnone {
+      display: none;
+  }
+
+  .bergerBody {
+      width: 100%;
+      height: 100Vh;
+      background: #0000003a;
+  }
+
+  @media only screen and (max-width: 1536px) {
+      .head {
+          /* background-color: rgb(208, 47, 26); */
+      }
+
+      .berger {
+          display: none;
+      }
+  }
+
+  @media only screen and (max-width: 1280px) {
+      .head {
+          /* background-color: rgb(230, 241, 12); */
+      }
+  }
+
+  @media only screen and (max-width: 1024px) {
+      .head {
+          /* background-color: rgb(0, 255, 0); */
+      }
+  }
+
+  @media only screen and (max-width: 768px) {
+      .head {
+          /* background-color: rgb(27, 8, 244); */
+      }
+  }
+
+  @media only screen and (max-width: 640px) {
+      .head {
+          /* background-color: rgb(255, 9, 120); */
+      }
+
+      nav {
+          transition: all ease 0.4s;
+          align-items: baseline;
+          /* background: rgb(255, 115, 115); */
+      }
+
+      .berger {
+          display: block;
+      }
+
+      .drop {
+          align-items: flex-start;
+      }
+
+      nav ul {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          position: absolute;
+          left: 0;
+          top: 3rem;
+          padding: 2rem;
+      }
+
+      nav ul li {
+          padding: 1rem;
+          /* background: red; */
+          flex-direction: column;
+          justify-content: flex-start;
+      }
+
+      nav ul li ul {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          top: 0;
+          right: 10px;
+          background: none;
+          left: 0;
+          overflow: hidden;
+          display: none;
+      }
+
+      nav ul li ul li {
+          background: rgb(238, 236, 236);
+          width: 70vw;
+          /* margin: 2px; */
+          margin: 2px;
+      }
+
+      .changeBerger {
+          height: 3.1rem;
+      }
+
+      .ber {
+          transition: all 0.5s ease-out;
+      }
+  }
+
+
 /* home img ========================== */
 .home {
     background-image: url(../img/home.jpg);
@@ -35,41 +268,105 @@
     transition: top 0.3s;
 }
 
-
-/* navebar dropdown ========================== */
-.dropdown{
+/* ============== scroll_part ============ */
+#scroll_part{
+    width: 100%;
+    min-height: 30vh;
+}
+#moving-text-1{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+#moving-text-2{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+#moving-text-1::-webkit-scrollbar{
 display: none;
 }
+#moving-text-2::-webkit-scrollbar{
+display: none;
+}
+.con1{
+    display: inline-block;
+    white-space: nowrap;
 
-nav ul li:hover ul.dropdown{
-    display: block;
+    animation-name: move-left;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.con2{
+    display: inline-block;
+    white-space: nowrap;
+
+    animation-name: move-right;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#moving-text-1 h1{
+    font-size: 4vw;
+    font: bold;
+    color: rgb(202, 202, 202);
+    display: inline-block;
+    margin: 2vw;
+}
+#moving-text-1 h1:hover{
+    color: rgb(255, 75, 10);
+}
+#moving-text-2 h1{
+    font-size: 4vw;
+    font:900;
+    color: rgb(202, 202, 202);
+    display: inline-block;
+    margin: 2vw;
+}
+#moving-text-2 h1:hover {
+    color: rgb(255, 75, 10);
 }
 
-/* ==================== dropdown design ========================== */
+@keyframes move-left {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes move-right {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+  @media only screen and (max-width: 1024px) {
+        #scroll_part{
+            /* display: none; */
+        }
+  }
 
-.dropdown{
-    background: rgb(255, 255, 255);
-    left: -25rem;
-    top: 3rem;
-    padding: 2rem;
-}
+  /* ============= about page ========= gola -------  */
 
-.dropdown li a{    
-    /* background: pink; */
-}
-.dropdown li p{
-    font-weight: normal;
-
-}
-
-/* ========================== outClick section-allClients=============== */
-
-.word{
-    display: none;
-}
-.aerrow:hover{
-    color: orangered;
-}
-.aerrow:hover .card_part.word{
-    display: block;
-}
+  .gola{
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgb(255, 47, 0), rgb(255, 132, 0));
+    top: 15%;
+    left: 55%;
+    filter: blur(20px);
+    z-index: 1;
+    animation: gooey 4s infinite alternate ease-in-out;
+  }
+  @keyframes gooey {
+    from{
+        transform: translate(10%, -10%) skew(0);
+    }
+    to{
+        transform: translate(-10%, 10%) skew(-12deg);
+    }
+  }

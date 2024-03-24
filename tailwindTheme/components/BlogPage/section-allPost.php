@@ -2,7 +2,7 @@
 
 <div class="lg:flex mx-[1rem] lg:mx-[7rem] ">
 
-<div class="w-[100%] md:w-[60vw] bg-slate-200">
+<div class="w-[100%] md:w-[60vw] ">
     <?php
 
 
@@ -24,16 +24,16 @@ if ($latest_post) {
         $post = $latest_post[0];
         // Access post details
         $post_title = $post->post_title; // Post title
-        $post_content = $post->post_content; // Post content        
+        $post_content = $post->post_excerpt; // Post content        
         $post_author = get_the_author_meta('display_name', $post->post_author); // Post author
         $post_permalink = get_permalink($post->ID); // Post permalink
-        $post_thumbnail = get_the_post_thumbnail($post->ID, 'thumbnail', ['class'=> 'object-cover h-[7rem] w-[100%] pb-[1rem]']); // Featured image
+        $post_thumbnail = get_the_post_thumbnail($post->ID, 'thumbnail', ['class'=> 'object-cover h-[25vw] w-[100%] pb-[1rem]']); // Featured image
         
         // Output post details
         // echo '<div class="latest-post">';
         // Output post details
-        echo '<h2 class="text-green-400"><p><a href="' . $post_permalink . '">' . $post_title . '</a></p></h2>';
-        echo '<div >' . $post_content . '</div>';
+        echo '<h2 class="text-[4vw] font-bold hover:underline"><p><a href="' . $post_permalink . '">' . $post_title . '</a></p></h2>';
+        echo '<div class="text-[2.5vw]">' . $post_content . '</div>';
         if ($post_thumbnail) {
             echo '<div class="post-thumbnail">' . $post_thumbnail . '</div>';
         }
@@ -61,11 +61,11 @@ if ($query->have_posts()) {
     while ($query->have_posts()) {
         $query->the_post();
         ?>
-        <div class="pt-[1rem] font-bold flex border-dashed  border-b-2 border-gray-300 h-[10rem] w-[100%] ml-2 ">
+        <div class="pt-[1rem] font-bold flex border-dashed  border-b-2 border-gray-300 h-[7rem] w-[100%] ml-2 ">
             <div class="img-fluid w-[40%] mr-2">
                 <?php if ( has_post_thumbnail()) : ?>
                     <div class=""><a class="" href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>"></div>
-                    <div class=""><?php the_post_thumbnail('post-thumbnail',['class'=> 'object-cover h-[7rem] pb-[1rem]']); ?></div> 
+                    <div class=""><?php the_post_thumbnail('post-thumbnail',['class'=> 'object-cover h-[6.5rem] pb-[1rem]']); ?></div> 
                     </a>
                     <?php endif; ?>
                 </div>
