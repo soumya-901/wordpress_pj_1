@@ -357,7 +357,7 @@ display: none;
     border-radius: 50%;
     background: linear-gradient(to top, rgb(255, 47, 0), rgb(255, 132, 0));
     top: 15%;
-    left: 55%;
+    left: 75%;
     filter: blur(20px);
     z-index: 1;
     animation: gooey 4s infinite alternate ease-in-out;
