@@ -23,11 +23,11 @@
 
         <p class="text-[.8rem] font-bold ">About Us</p>
     </div>
-    <div class="mx-[1rem] relative h-[20rem]">
-    <p class="text-gray-600 text-[1rem] font-semibold pl-[.1rem]">ABOUT BAIRESDEV</p>
-    <h2 class="text-[4vw] w-[70vw] absolute z-10">For over a decade we’ve partnered with technology leaders to rapidly scale their teams and meet their business challenges.</h2>
+    <div class="mx-[1rem] relative h-[30vw]">
+    <p class="text-gray-600 text-[1rem] font-semibold pl-[1rem]">ABOUT BAIRESDEV</p>
+    <h2 class="text-[4vw] w-[70vw] absolute z-10 pl-[1rem]">For over a decade we’ve partnered with technology leaders to rapidly scale their teams and meet their business challenges.</h2>
+</div>
     <div class="gola">
-    </div>
     </div>
 </div>
 </div>

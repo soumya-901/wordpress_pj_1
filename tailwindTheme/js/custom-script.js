@@ -5,6 +5,7 @@ const Cont = document.querySelector(".cont");
 const Nav = document.querySelector("nav");
 const Drop = document.querySelector("nav ul");
 const SDrop = document.querySelector("nav ul li ul");
+const Search = document.querySelector(".search");
 
 function dropdow() {
   Top.classList.toggle("rot");
@@ -65,3 +66,15 @@ function resNav() {
 //     }
 //     prevScrollpos = currentScrollPos;
 // }
+
+// =================================
+
+function searchDown() {
+  if (isShow) {
+    Search.style.top = "100px";
+    isShow = false;
+  } else {
+    Search.style.top = "0";
+    isShow = true;
+  }
+}

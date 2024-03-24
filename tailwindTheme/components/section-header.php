@@ -1,4 +1,4 @@
-    <nav class="">
+    <nav class="z-50 bg-white">
         <!-- --------- logo ------------  -->
         <div class="logo">
           <svg width="200" height="35" viewBox="0 0 188 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@
                     </ul>
                 </li>
                 <a href="http://localhost/wordpress/index.php/contact-form/"><li
-                    class="ml-[.5rem] w-[8rem] text-center sm:px-[.2rem] sm:text-[.6rem] lg:text-[.7rem] lg:px-[.5rem] font-bold text-white bg-black rounded-lg py-3 hover:bg-slate-500">
+                    class="ml-[.5rem] text-center sm:px-[.2rem] sm:text-[.6rem] lg:text-[.7rem] lg:px-[.5rem] font-bold text-white bg-black rounded-lg py-3 hover:bg-slate-500">
                     <button class="">Schedule a Call</button></li></a>
             </ul>
         </div>

@@ -123,7 +123,7 @@
       position: absolute;
       right: 0;
       padding: 10px;
-      top: -30px;
+      top: -47px;
       height: 11vw;
       /* transition: all easy 0.2s; */
   }
@@ -175,6 +175,7 @@
           transition: all ease 0.4s;
           align-items: baseline;
           /* background: rgb(255, 115, 115); */
+          height: 4rem;
       }
 
       .berger {
@@ -360,13 +361,17 @@ display: none;
     left: 75%;
     filter: blur(20px);
     z-index: 1;
-    animation: gooey 4s infinite alternate ease-in-out;
+    animation: gooey 3s infinite alternate ease-in-out;
   }
   @keyframes gooey {
     from{
-        transform: translate(10%, -10%) skew(0);
+        transform: translate(10%, -50%) skew(0);
     }
     to{
-        transform: translate(-10%, 10%) skew(-12deg);
+        transform: translate(-90%, 20%) skew(-12deg);
     }
+  }
+
+  .search{
+    transition: all 0.5s ease-out;
   }

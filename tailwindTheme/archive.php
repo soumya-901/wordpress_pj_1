@@ -2,7 +2,7 @@
 <?php get_template_part('components/BlogPage/section','header');?>
 <div class="bg-gray-100">
   <div class="lg:px[7rem] px-[1rem] text-[2rem]">
-    <div class="ml-[11%] w-[100%]">
+    <div class="ml-[10%] w-[90%]">
       catagory name - <?php echo single_cat_title();?>
     </div>
 

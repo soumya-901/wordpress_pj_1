@@ -63,7 +63,7 @@
         </div>
         </div>
         <!-- right  -->
-        <div class=" bg-slate-400 px-[2.5rem] py-[4rem] xl:w-[40%]">
+        <div class=" bg-gray-200 px-[2.5rem] py-[4rem] xl:w-[40%]">
                 <h2 class="text-[1rem] font-bold sm:text-[1.2rem] sm:w-[90%] md:text-[1.8rem]">Get insights from the experts on building and scaling technology
                     teams.
                 </h2>

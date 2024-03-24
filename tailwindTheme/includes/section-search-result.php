@@ -2,12 +2,12 @@
 <div class="w-[100%]">
 <?php if(have_posts()):while(have_posts(  )):the_post( );?>
 </div>
-<div class=" bg-white my-[2rem] mx-[1rem] pb-[1rem] w-[100%] md:w-[40%] lg:w-[30%]">
+<div class=" bg-white my-[2rem] mx-[1rem] pb-[1rem] w-[100%] md:w-[40%] lg:w-[30%] drop-shadow-md hover:drop-shadow-xl rounded-lg">
     <div class="">
         
         <?php if ( has_post_thumbnail()) : ?>
             <a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">
-                <?php the_post_thumbnail('post-thumbnail',['class'=> 'w-[100%] object-cover h-48 ']); ?>
+                <?php the_post_thumbnail('post-thumbnail',['class'=> 'w-[100%] object-cover h-48 rounded-t-lg  ']); ?>
             </a>
             <h3 class="text-[1.5rem] font-bold p-[1rem]"><?php the_title(); ?> </h3>
             <?php endif; ?>

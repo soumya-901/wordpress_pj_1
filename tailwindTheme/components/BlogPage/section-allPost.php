@@ -1,6 +1,6 @@
 
 
-<div class="lg:flex mx-[1rem] lg:mx-[7rem] ">
+<div class="lg:flex mx-[1rem] lg:mx-[7rem] mt-[5rem] ">
 
 <div class="w-[100%] md:w-[60vw] ">
     <?php
@@ -96,7 +96,7 @@ if ($query->have_posts()) {
 </div>
 </div>
 
-    <div class="bg-gray-100 mt-[5vw] pt-[2vw]">
+    <div class="bg-gray-100 mt-[5vw] pt-[2vw] ">
         <!-- <p class="bg-red-500">All category details</p> -->
           <div class="lg:px-[7rem]">
 
@@ -120,9 +120,9 @@ if ($query->have_posts()) {
                     foreach ($posts as $post) {
                         setup_postdata($post);
                     ?>
-                     <div class="bg-white md:w-[45%] m-[1rem] lg:w-[30%]">
+                     <div class="bg-white md:w-[45%] m-[1rem] lg:w-[30%] rounded-lg drop-shadow-md hover:drop-shadow-xl">
                          <!-- img  -->
-                                <?php the_post_thumbnail('post-thumbnail',['class'=> 'w-[100%] object-cover h-48']); ?>
+                                <?php the_post_thumbnail('post-thumbnail',['class'=> 'w-[100%] object-cover h-48 rounded-t-lg']); ?>
 
                                 <?php if ( has_post_thumbnail()) : ?>
                                     <a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">

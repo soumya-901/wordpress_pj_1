@@ -1,6 +1,6 @@
-<div class=" shadow-lg">
+<div class=" shadow-lg relative z-10 mt-[2rem]">
   <div class="bg-white flex justify-between py-[1.5rem] " style="box-shadow: 0.4px -26.7px 28.1px 7px;">
-    <div class="flex flex-col xl:ml-[7rem]">
+    <div class="flex flex-col md:mx-[5rem] xl:ml-[7rem]">
     <h4 class="">
 <svg width="299" height="41" viewBox="0 0 299 41" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.770508 3.1875H11.1791C16.6407 3.1875 19.828 6.34156 19.828 10.5525C19.828 13.1121 18.5498 15.1928 16.5245 16.3487V16.5964C18.3671 17.356 20.741 19.3541 20.741 23.0697C20.741 28.2218 16.6407 31.1943 11.9759 31.1943H0.753906V3.1875H0.770508ZM10.5317 14.7139C12.9886 14.7139 14.5158 13.2277 14.5158 11.0809C14.5158 9.00022 12.9554 7.59658 10.6147 7.59658H5.9167V14.7139H10.5317ZM10.6645 26.6696C13.2708 26.6696 15.13 25.398 15.13 22.6238C15.13 19.8495 12.9554 18.6606 10.4985 18.6606H5.9167V26.6531H10.6645V26.6696Z" fill="#111111"/>
@@ -20,14 +20,30 @@
     </h4>
     <p class="text-[.6rem] sm:-[1rem]">Insights on Software Development & Tech Talent</p>
     </div>
-    <ul  class="sm:flex items-center xl:mr-[7rem] hidden">
+    <ul  class="sm:flex items-center xl:mr-[2rem] ">
+      <div class="hidden md:flex">
       <?php
       $categories = get_categories();
       foreach ($categories as $category) {
-        echo '<li class = "w-fit py-0.5 "><a class = " xl:pr-[2rem] text-xl text-gray-600" href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
+        echo '<li class = "w-fit py-0.5 "><a class = " xl:pr-[1rem] md:text-[.7rem] lg:text-[1rem] text-gray-600 mx-2" href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
       }
       ?>
-      <?php get_search_form();?>
+    </div>
+<!-- search icon   ==================== -->
+<button class="ml-4 hover:drop-shadow-md grid place-items-center rounded-full mr-[3rem] " onClick="searchDown()">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M21 21l-6 -6" />
+</svg>
+</button>
 
-    </ul>
-  </div>
+</ul>
+</div>
+
+<!-- ================== search drop==============  -->
+<div class="search flex drop-shadow-2xl w-[100%] bg-gray-100 items-center px-[7%] gap-7 p-[1rem] absolute top-0 z-[-1]">
+    <input class="p-10px pl-[2rem] w-[80%] rounded-full p-4 drop-shadow-md outline-none" type="text" id="fname" name="fname" placeholder="search">
+    <button class="w-[20%] bg-white rounded-full p-4 transition duration-300 ease-in-out hover:bg-gray-100 drop-shadow-md ">Search</button>
+</div>
+<!-- ==========================  -->
